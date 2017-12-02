@@ -6,7 +6,7 @@
     "types": []
   },
   "angularCompilerOptions": {
-    "flatModuleId": "@codebakery/origami",
+    "flatModuleId": "@oshanrube/origami",
     "flatModuleOutFile": "origami.js",
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true

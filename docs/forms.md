@@ -12,7 +12,7 @@ By default, `<paper-checkbox>` has a `checked` attribute that we can bind to.
 
 ```ts
 import { Component } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -44,7 +44,7 @@ A warning will be generated in the console if `[ironControl]` can't support the 
 
 ```ts
 import { Component } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -96,7 +96,7 @@ In these cases, add `[ironControl]` to the parent element and specify an `[ironS
 
 ```ts
 import { Component } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -155,8 +155,8 @@ Origami's collection modules include the proper control selectors for Polymer's 
 app.module.ts
 ```ts
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { PolymerModule } from '@codebakery/origami';
-import { PaperElementsModule } from '@codebakery/origami/lib/collections';
+import { PolymerModule } from '@oshanrube/origami';
+import { PaperElementsModule } from '@oshanrube/origami/lib/collections';
 
 @NgModule({
   declarations: [
@@ -176,7 +176,7 @@ export class AppModule { }
 app.component.ts
 ```ts
 import { Component } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',

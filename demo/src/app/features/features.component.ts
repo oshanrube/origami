@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { Polymer, PolymerChanges } from '@codebakery/origami';
+import { Polymer, PolymerChanges } from '@oshanrube/origami';
 
 import { Feature } from './Feature';
 import { getFeatures } from './features';

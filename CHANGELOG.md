@@ -3,73 +3,73 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="1.3.4"></a>
-## [1.3.4](https://github.com/hotforfeature/origami/compare/v1.3.3...v1.3.4) (2017-11-20)
+## [1.3.4](https://github.com/oshanrube/origami/compare/v1.3.3...v1.3.4) (2017-11-20)
 
 Fix metadata version mismatch.
 
 
 <a name="1.3.3"></a>
-## [1.3.3](https://github.com/hotforfeature/origami/compare/v1.3.2...v1.3.3) (2017-11-15)
+## [1.3.3](https://github.com/oshanrube/origami/compare/v1.3.2...v1.3.3) (2017-11-15)
 
 This release is to correct an NPM tag error.
 
 
 <a name="1.3.2"></a>
-## [1.3.2](https://github.com/hotforfeature/origami/compare/v1.3.1...v1.3.2) (2017-08-17)
+## [1.3.2](https://github.com/oshanrube/origami/compare/v1.3.1...v1.3.2) (2017-08-17)
 
 
 ### Bug Fixes
 
-* **templates:** uncaught Promise error when shimming HTMLTemplateElement ([b7a6851](https://github.com/hotforfeature/origami/commit/b7a6851))
+* **templates:** uncaught Promise error when shimming HTMLTemplateElement ([b7a6851](https://github.com/oshanrube/origami/commit/b7a6851))
 
 
 
 <a name="1.3.1"></a>
-## [1.3.1](https://github.com/hotforfeature/origami/compare/v1.3.0...v1.3.1) (2017-08-09)
+## [1.3.1](https://github.com/oshanrube/origami/compare/v1.3.0...v1.3.1) (2017-08-09)
 
 
 ### Bug Fixes
 
-* **collections:** add paper-toast to PaperElementsModule ([e04d8ef](https://github.com/hotforfeature/origami/commit/e04d8ef))
+* **collections:** add paper-toast to PaperElementsModule ([e04d8ef](https://github.com/oshanrube/origami/commit/e04d8ef))
 
 
 
 <a name="1.3.0"></a>
-# [1.3.0](https://github.com/hotforfeature/origami/compare/v1.3.0-beta.1...v1.3.0) (2017-08-09)
+# [1.3.0](https://github.com/oshanrube/origami/compare/v1.3.0-beta.1...v1.3.0) (2017-08-09)
 
 
 ### Bug Fixes
 
-* **events:** fix emitChanges not listening to non-hybrid mixin properties ([30d300d](https://github.com/hotforfeature/origami/commit/30d300d)), closes [#50](https://github.com/hotforfeature/origami/issues/50)
+* **events:** fix emitChanges not listening to non-hybrid mixin properties ([30d300d](https://github.com/oshanrube/origami/commit/30d300d)), closes [#50](https://github.com/oshanrube/origami/issues/50)
 
 
 ### Features
 
-* **util:** export internal utility functions for developers to use ([64e6923](https://github.com/hotforfeature/origami/commit/64e6923))
+* **util:** export internal utility functions for developers to use ([64e6923](https://github.com/oshanrube/origami/commit/64e6923))
 
 
 
 <a name="1.3.0-beta.1"></a>
-# [1.3.0-beta.1](https://github.com/hotforfeature/origami/compare/v1.3.0-beta.0...v1.3.0-beta.1) (2017-07-25)
+# [1.3.0-beta.1](https://github.com/oshanrube/origami/compare/v1.3.0-beta.0...v1.3.0-beta.1) (2017-07-25)
 
 Re-release incorrect build.
 
 
 
 <a name="1.3.0-beta.0"></a>
-# [1.3.0-beta.0](https://github.com/hotforfeature/origami/compare/v1.2.3...v1.3.0-beta.0) (2017-07-24)
+# [1.3.0-beta.0](https://github.com/oshanrube/origami/compare/v1.2.3...v1.3.0-beta.0) (2017-07-24)
 
 With this release, the SystemJS loader is now supported by Origami!
 
 ### Bug Fixes
 
-* **templates:** check for templateInfo before listening for templateInfo changes ([46a2973](https://github.com/hotforfeature/origami/commit/46a2973))
+* **templates:** check for templateInfo before listening for templateInfo changes ([46a2973](https://github.com/oshanrube/origami/commit/46a2973))
 
 
 ### Features
 
-* follow Angular package format v4.0 ([f69956d](https://github.com/hotforfeature/origami/commit/f69956d)), closes [#30](https://github.com/hotforfeature/origami/issues/30)
-* **templates:** add host property binding ([71fcf4c](https://github.com/hotforfeature/origami/commit/71fcf4c))
+* follow Angular package format v4.0 ([f69956d](https://github.com/oshanrube/origami/commit/f69956d)), closes [#30](https://github.com/oshanrube/origami/issues/30)
+* **templates:** add host property binding ([71fcf4c](https://github.com/oshanrube/origami/commit/71fcf4c))
 
 Polymer templates now support both event and data binding.
 
@@ -112,47 +112,47 @@ export class PaperGridComponent {
 
 ### DEPRECATION WARNING
 
-Origami's collection libraries should be imported from `@codebakery/origami/collections`. The old `@codebakery/origami/lib/collections` import path will continue to work but will be removed in the next major revision.
+Origami's collection libraries should be imported from `@oshanrube/origami/collections`. The old `@oshanrube/origami/lib/collections` import path will continue to work but will be removed in the next major revision.
 
 
 
 <a name="1.2.3"></a>
-## [1.2.3](https://github.com/hotforfeature/origami/compare/v1.2.2...v1.2.3) (2017-06-21)
+## [1.2.3](https://github.com/oshanrube/origami/compare/v1.2.2...v1.2.3) (2017-06-21)
 
 
 ### Bug Fixes
 
-* **collections:** add iron control to paper-textarea ([66a75da](https://github.com/hotforfeature/origami/commit/66a75da)), closes [#35](https://github.com/hotforfeature/origami/issues/35)
+* **collections:** add iron control to paper-textarea ([66a75da](https://github.com/oshanrube/origami/commit/66a75da)), closes [#35](https://github.com/oshanrube/origami/issues/35)
 
 
 
 <a name="1.2.2"></a>
-## [1.2.2](https://github.com/hotforfeature/origami/compare/v1.2.1...v1.2.2) (2017-06-13)
+## [1.2.2](https://github.com/oshanrube/origami/compare/v1.2.1...v1.2.2) (2017-06-13)
 
 
 ### Bug Fixes
 
-* **styles:** prevent wrapping Polymer scoped styles in &lt;custom-style&gt; ([80775a6](https://github.com/hotforfeature/origami/commit/80775a6)), closes [#33](https://github.com/hotforfeature/origami/issues/33)
+* **styles:** prevent wrapping Polymer scoped styles in &lt;custom-style&gt; ([80775a6](https://github.com/oshanrube/origami/commit/80775a6)), closes [#33](https://github.com/oshanrube/origami/issues/33)
 
 
 
 <a name="1.2.1"></a>
-## [1.2.1](https://github.com/hotforfeature/origami/compare/v1.2.0...v1.2.1) (2017-06-09)
+## [1.2.1](https://github.com/oshanrube/origami/compare/v1.2.0...v1.2.1) (2017-06-09)
 
 
 ### Bug Fixes
 
-* **templates:** add warning to use enableLegacyTemplate and shim to fix [angular/angular#15557](https://github.com/angular/angular/issues/15557) ([137807f](https://github.com/hotforfeature/origami/commit/137807f)), closes [#27](https://github.com/hotforfeature/origami/issues/27)
+* **templates:** add warning to use enableLegacyTemplate and shim to fix [angular/angular#15557](https://github.com/angular/angular/issues/15557) ([137807f](https://github.com/oshanrube/origami/commit/137807f)), closes [#27](https://github.com/oshanrube/origami/issues/27)
 
 
 
 <a name="1.2.0"></a>
-# [1.2.0](https://github.com/hotforfeature/origami/compare/v1.1.2...v1.2.0) (2017-06-08)
+# [1.2.0](https://github.com/oshanrube/origami/compare/v1.1.2...v1.2.0) (2017-06-08)
 
 
 ### Features
 
-* **styles:** automatically handle custom-styles and fix CSS mixin support ([#31](https://github.com/hotforfeature/origami/issues/31)) ([138da23](https://github.com/hotforfeature/origami/commit/138da23)), closes [#29](https://github.com/hotforfeature/origami/issues/29)
+* **styles:** automatically handle custom-styles and fix CSS mixin support ([#31](https://github.com/oshanrube/origami/issues/31)) ([138da23](https://github.com/oshanrube/origami/commit/138da23)), closes [#29](https://github.com/oshanrube/origami/issues/29)
 
 `CustomStyleService` has been deprecated in favor of `PolymerDomSharedStyles` and will be removed in 2.0.0.
 
@@ -161,32 +161,32 @@ A warning will be given when using `CustomStyleService.updateCustomStyles()`. Re
 
 
 <a name="1.1.2"></a>
-## [1.1.2](https://github.com/hotforfeature/origami/compare/v1.1.1...v1.1.2) (2017-05-26)
+## [1.1.2](https://github.com/oshanrube/origami/compare/v1.1.1...v1.1.2) (2017-05-26)
 
 
 ### Bug Fixes
 
-* **templates:** shim Polymer.TemplateStamp on method host to allow Polymer event bindings ([48319bd](https://github.com/hotforfeature/origami/commit/48319bd))
+* **templates:** shim Polymer.TemplateStamp on method host to allow Polymer event bindings ([48319bd](https://github.com/oshanrube/origami/commit/48319bd))
 
 
 
 <a name="1.1.1"></a>
-## [1.1.1](https://github.com/hotforfeature/origami/compare/v1.1.0...v1.1.1) (2017-05-24)
+## [1.1.1](https://github.com/oshanrube/origami/compare/v1.1.0...v1.1.1) (2017-05-24)
 
 
 ### Bug Fixes
 
-* **events:** fix [emitChanges] not working with ES6-style Polymer elements ([009fdbd](https://github.com/hotforfeature/origami/commit/009fdbd))
+* **events:** fix [emitChanges] not working with ES6-style Polymer elements ([009fdbd](https://github.com/oshanrube/origami/commit/009fdbd))
 
 
 
 <a name="1.1.0"></a>
-# [1.1.0](https://github.com/hotforfeature/origami/compare/v1.0.1...v1.1.0) (2017-05-04)
+# [1.1.0](https://github.com/oshanrube/origami/compare/v1.0.1...v1.1.0) (2017-05-04)
 
 
 ### Features
 
-* **util:** add webcomponentsReady function to help bootstrap apps ([aa093a1](https://github.com/hotforfeature/origami/commit/aa093a1))
+* **util:** add webcomponentsReady function to help bootstrap apps ([aa093a1](https://github.com/oshanrube/origami/commit/aa093a1))
 
 webcomponentsjs 1.0.0-rc.11 added `window.WebComponents` to indicate whether or not polyfills are being loaded. To take advantage of this and reduce complexity, Origami provides `webcomponentsReady()`. Instead of adding listeners for WebComponentsReady, just bootstrap the app when the function resolves.
 
@@ -208,7 +208,7 @@ if (window.webcomponentsReady) {
 After:
 ```ts
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { webcomponentsReady } from '@codebakery/origami';
+import { webcomponentsReady } from '@oshanrube/origami';
 
 webcomponentsReady().then(() => {
   platformBrowserDynamic().bootstrapModule(AppModule);
@@ -220,33 +220,33 @@ Make sure you update webcomponentsjs! Either explicitly install it, or remove `b
 
 
 <a name="1.0.1"></a>
-## [1.0.1](https://github.com/hotforfeature/origami/compare/v1.0.0...v1.0.1) (2017-04-28)
+## [1.0.1](https://github.com/oshanrube/origami/compare/v1.0.0...v1.0.1) (2017-04-28)
 
 
 ### Bug Fixes
 
-* remove bower install as postinstall action ([81a8804](https://github.com/hotforfeature/origami/commit/81a8804))
+* remove bower install as postinstall action ([81a8804](https://github.com/oshanrube/origami/commit/81a8804))
 
 
 
 <a name="1.0.0"></a>
-# [1.0.0](https://github.com/hotforfeature/origami/compare/v0.6.0...v1.0.0) (2017-04-27)
+# [1.0.0](https://github.com/oshanrube/origami/compare/v0.6.0...v1.0.0) (2017-04-27)
 
 
 ### Bug Fixes
 
-* **events:** fix bug where value for decorator was cached across all components ([507ac23](https://github.com/hotforfeature/origami/commit/507ac23))
-* **forms:** fix ironControl not updating from selector and incorrectly marking control as dirty ([6012359](https://github.com/hotforfeature/origami/commit/6012359))
+* **events:** fix bug where value for decorator was cached across all components ([507ac23](https://github.com/oshanrube/origami/commit/507ac23))
+* **forms:** fix ironControl not updating from selector and incorrectly marking control as dirty ([6012359](https://github.com/oshanrube/origami/commit/6012359))
 
 
 
 <a name="0.6.0"></a>
-# [0.6.0](https://github.com/hotforfeature/origami/compare/v0.5.0...v0.6.0) (2017-04-17)
+# [0.6.0](https://github.com/oshanrube/origami/compare/v0.5.0...v0.6.0) (2017-04-17)
 
 
 ### Code Refactoring
 
-* **events:** rename [polymer], @PolymerProperty, and polymer-template ([7d91f89](https://github.com/hotforfeature/origami/commit/7d91f89)), closes [#7](https://github.com/hotforfeature/origami/issues/7)
+* **events:** rename [polymer], @PolymerProperty, and polymer-template ([7d91f89](https://github.com/oshanrube/origami/commit/7d91f89)), closes [#7](https://github.com/oshanrube/origami/issues/7)
 
 
 ### BREAKING CHANGES
@@ -256,45 +256,45 @@ Make sure you update webcomponentsjs! Either explicitly install it, or remove `b
 
 
 <a name="0.5.0"></a>
-# [0.5.0](https://github.com/hotforfeature/origami/compare/v0.4.0...v0.5.0) (2017-04-13)
+# [0.5.0](https://github.com/oshanrube/origami/compare/v0.4.0...v0.5.0) (2017-04-13)
 
 
 ### Bug Fixes
 
-* **aot:** AoT compile issue ([a5328e3](https://github.com/hotforfeature/origami/commit/a5328e3))
+* **aot:** AoT compile issue ([a5328e3](https://github.com/oshanrube/origami/commit/a5328e3))
 
 
 ### Features
 
-* **docs:** add documentation and demo for production builds ([e904a4e](https://github.com/hotforfeature/origami/commit/e904a4e)), closes [#8](https://github.com/hotforfeature/origami/issues/8)
+* **docs:** add documentation and demo for production builds ([e904a4e](https://github.com/oshanrube/origami/commit/e904a4e)), closes [#8](https://github.com/oshanrube/origami/issues/8)
 
 
 
 <a name="0.4.0"></a>
-# [0.4.0](https://github.com/hotforfeature/origami/compare/v0.3.0...v0.4.0) (2017-04-12)
+# [0.4.0](https://github.com/oshanrube/origami/compare/v0.3.0...v0.4.0) (2017-04-12)
 
 
 ### Features
 
-* **events:** listen and notify Angular of object and array mutations ([95dedf3](https://github.com/hotforfeature/origami/commit/95dedf3)), closes [#9](https://github.com/hotforfeature/origami/issues/9)
+* **events:** listen and notify Angular of object and array mutations ([95dedf3](https://github.com/oshanrube/origami/commit/95dedf3)), closes [#9](https://github.com/oshanrube/origami/issues/9)
 
 
 
 <a name="0.3.0"></a>
-# [0.3.0](https://github.com/hotforfeature/origami/compare/v0.2.0...v0.3.0) (2017-04-11)
+# [0.3.0](https://github.com/oshanrube/origami/compare/v0.2.0...v0.3.0) (2017-04-11)
 
 
 ### Bug Fixes
 
-* **collections:** missing paper-icon selectors ([05949c9](https://github.com/hotforfeature/origami/commit/05949c9))
-* **collections:** missing paper-tab selector ([2f3f6a0](https://github.com/hotforfeature/origami/commit/2f3f6a0))
-* **events:** remove initial polymer property event ([fa69915](https://github.com/hotforfeature/origami/commit/fa69915))
+* **collections:** missing paper-icon selectors ([05949c9](https://github.com/oshanrube/origami/commit/05949c9))
+* **collections:** missing paper-tab selector ([2f3f6a0](https://github.com/oshanrube/origami/commit/2f3f6a0))
+* **events:** remove initial polymer property event ([fa69915](https://github.com/oshanrube/origami/commit/fa69915))
 
 
 ### Features
 
-* **events:** PolymerProperty now works automatically with getters and setters ([6081552](https://github.com/hotforfeature/origami/commit/6081552)), closes [#6](https://github.com/hotforfeature/origami/issues/6)
-* **templates:** add input to polymer templates to call Angular methods ([79004ec](https://github.com/hotforfeature/origami/commit/79004ec))
+* **events:** PolymerProperty now works automatically with getters and setters ([6081552](https://github.com/oshanrube/origami/commit/6081552)), closes [#6](https://github.com/oshanrube/origami/issues/6)
+* **templates:** add input to polymer templates to call Angular methods ([79004ec](https://github.com/oshanrube/origami/commit/79004ec))
 
 
 ### BREAKING CHANGES
@@ -305,18 +305,18 @@ Make sure you update webcomponentsjs! Either explicitly install it, or remove `b
 
 
 <a name="0.2.0"></a>
-# [0.2.0](https://github.com/hotforfeature/origami/compare/v0.1.0...v0.2.0) (2017-04-10)
+# [0.2.0](https://github.com/oshanrube/origami/compare/v0.1.0...v0.2.0) (2017-04-10)
 
 
 ### Bug Fixes
 
-* **collections:** incorrect app-layout selectors ([525884b](https://github.com/hotforfeature/origami/commit/525884b))
-* **templates:** Safari polyfilled templates not recognizing parent as element ([7c857c0](https://github.com/hotforfeature/origami/commit/7c857c0)), closes [#5](https://github.com/hotforfeature/origami/issues/5)
+* **collections:** incorrect app-layout selectors ([525884b](https://github.com/oshanrube/origami/commit/525884b))
+* **templates:** Safari polyfilled templates not recognizing parent as element ([7c857c0](https://github.com/oshanrube/origami/commit/7c857c0)), closes [#5](https://github.com/oshanrube/origami/issues/5)
 
 
 ### Features
 
-* **style:** add CustomStyleService to wrap Angular styles with custom-style ([b2b2bc5](https://github.com/hotforfeature/origami/commit/b2b2bc5)), closes [#2](https://github.com/hotforfeature/origami/issues/2)
+* **style:** add CustomStyleService to wrap Angular styles with custom-style ([b2b2bc5](https://github.com/oshanrube/origami/commit/b2b2bc5)), closes [#2](https://github.com/oshanrube/origami/issues/2)
 
 
 

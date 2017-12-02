@@ -8,7 +8,7 @@ Properties decorated with `@PolymerChanges()` will notify a component of the cha
 
 ```ts
 import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { PolymerChanges, OnPolymerChange } from '@codebakery/origami';
+import { PolymerChanges, OnPolymerChange } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',

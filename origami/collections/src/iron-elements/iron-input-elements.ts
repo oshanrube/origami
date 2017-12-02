@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { EmitChangesDirective } from '@codebakery/origami';
+import { EmitChangesDirective } from '@oshanrube/origami';
 
 @Directive({
   selector: `iron-dropdown, iron-form, iron-input, iron-label`

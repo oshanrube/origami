@@ -32,7 +32,7 @@ However, if a mutation occurs in Polymer programmatically, or if a component is 
 
 ```ts
 import { Component, ChangeDetectorRef } from '@angular/core';
-import { PolymerChanges, OnPolymerChange } from '@codebakery/origami';
+import { PolymerChanges, OnPolymerChange } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -59,7 +59,7 @@ Polymer will not automatically check for mutations like Angular does. This means
 
 ```ts
 import { Component, ChangeDetectorRef, ElementRef, ViewChild } from '@angular/core';
-import { PolymerChanges, OnPolymerChange } from '@codebakery/origami';
+import { PolymerChanges, OnPolymerChange } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -97,7 +97,7 @@ Origami provides the `Polymer.PropertyEffects` interface to assist in correctly 
 
 ```ts
 import { Component, ChangeDetectorRef, ElementRef, ViewChild } from '@angular/core';
-import { Polymer, PolymerChanges, OnPolymerChange } from '@codebakery/origami';
+import { Polymer, PolymerChanges, OnPolymerChange } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -134,7 +134,7 @@ Elements using `MutableData` can using `notifyPath()` to invoke their property e
 
 ```ts
 import { Component, ChangeDetectorRef, ElementRef, ViewChild } from '@angular/core';
-import { Polymer, PolymerChanges, OnPolymerChange } from '@codebakery/origami';
+import { Polymer, PolymerChanges, OnPolymerChange } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -168,7 +168,7 @@ class MyListElement extends Polymer.OptionalMutableData(Polymer.Element)
 
 ```ts
 import { Component, ChangeDetectorRef, ElementRef, ViewChild } from '@angular/core';
-import { Polymer, PolymerChanges, OnPolymerChange } from '@codebakery/origami';
+import { Polymer, PolymerChanges, OnPolymerChange } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',

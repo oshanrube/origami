@@ -1,6 +1,6 @@
 import { Directive, HostListener, OnInit, Provider, forwardRef } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { IronControlDirective } from '@codebakery/origami';
+import { IronControlDirective } from '@oshanrube/origami';
 
 export const PAPER_SLIDER_CONTROL_VALUE_ACCESSOR: Provider = {
   provide: NG_VALUE_ACCESSOR,

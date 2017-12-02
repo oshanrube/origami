@@ -112,7 +112,7 @@ We can decorate the `isDisabled` property to automatically unwrap Polymer events
 
 ```ts
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -144,7 +144,7 @@ Simply add `@PolymerChanges()` to either the getter or setter (not both) and the
 
 ```ts
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',
@@ -190,8 +190,8 @@ Origami provides modules that select several custom elements. In our example, we
 app.module.ts
 ```ts
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { PolymerModule } from '@codebakery/origami';
-import { PaperElementsModule } from '@codebakery/origami/lib/collections';
+import { PolymerModule } from '@oshanrube/origami';
+import { PaperElementsModule } from '@oshanrube/origami/lib/collections';
 
 @NgModule({
   declarations: [
@@ -211,7 +211,7 @@ export class AppModule { }
 poly.component.ts
 ```ts
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',

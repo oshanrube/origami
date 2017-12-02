@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-root',

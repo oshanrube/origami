@@ -5,7 +5,7 @@
     "Andrew Mitchell <abmitchell77@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/hotforfeature/origami",
+  "homepage": "https://github.com/oshanrube/origami",
   "private": true,
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",

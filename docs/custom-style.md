@@ -23,7 +23,7 @@ app.module.ts
 ```ts
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PolymerModule } from '@codebakery/origami';
+import { PolymerModule } from '@oshanrube/origami';
 
 @NgModule({
   declarations: [
@@ -44,7 +44,7 @@ Now, Origami will automatically wrap any `<style>`, including emulated and nativ
 
 ```ts
 import { Component, OnInit } from '@angular/core';
-import { CustomStyleService, PolymerChanges } from '@codebakery/origami';
+import { CustomStyleService, PolymerChanges } from '@oshanrube/origami';
 
 @Component({
   selector: 'app-poly',

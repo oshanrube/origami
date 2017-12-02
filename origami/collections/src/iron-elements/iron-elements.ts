@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { EmitChangesDirective } from '@codebakery/origami';
+import { EmitChangesDirective } from '@oshanrube/origami';
 
 @Directive({
   selector: `iron-a11y-announcer, iron-a11y-keys, iron-ajax, iron-autogrow-textarea, iron-collapse,

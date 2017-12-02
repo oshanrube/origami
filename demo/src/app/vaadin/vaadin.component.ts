@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Http } from '@angular/http';
-import { PolymerChanges } from '@codebakery/origami';
+import { PolymerChanges } from '@oshanrube/origami';
 import { Observable } from 'rxjs';
 import 'rxjs/add/operator/map';
 

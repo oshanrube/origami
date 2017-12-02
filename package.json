@@ -1,6 +1,6 @@
 {
-  "name": "oshanrube/origami",
-  "version": "1.4.0",
+  "name": "@oshanrube/origami",
+  "version": "1.4.1",
   "description": "Angular + Polymer",
   "keywords": [
     "Angular",
@@ -10,11 +10,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hotforfeature/origami.git"
+    "url": "git+https://github.com/oshanrube/origami.git"
   },
-  "homepage": "https://github.com/hotforfeature/origami#readme",
+  "homepage": "https://github.com/oshanrube/origami#readme",
   "bugs": {
-    "url": "https://github.com/hotforfeature/origami/issues"
+    "url": "https://github.com/oshanrube/origami/issues"
   },
   "scripts": {
     "clean": "rimraf out-tsc/ dist/ reports/ test/build/",
@@ -33,19 +33,19 @@
     "ngc:es6": "ngc -p origami/tsconfig.json",
     "ngc:es5": "ngc -p origami/tsconfig.es5.json",
     "ngc": "npm run ngc:es6 && npm run ngc:es5",
-    "rollup:es6": "rollup -c origami/rollup.config.js -m --format es --output dist/@codebakery/origami.js -- out-tsc/es6/origami.js",
-    "rollup:es5": "rollup -c origami/rollup.config.js -m --format es --output dist/@codebakery/origami.es5.js -- out-tsc/es5/origami.js",
-    "rollup:umd": "rollup -c origami/rollup.config.js --format umd --output dist/bundles/origami.umd.js -- dist/@codebakery/origami.es5.js",
-    "rollup:umd:min": "rollup -c origami/rollup.config.js --format umd --output dist/bundles/origami.umd.min.js -- dist/@codebakery/origami.es5.js",
+    "rollup:es6": "rollup -c origami/rollup.config.js -m --format es --output dist/@oshanrube/origami.js -- out-tsc/es6/origami.js",
+    "rollup:es5": "rollup -c origami/rollup.config.js -m --format es --output dist/@oshanrube/origami.es5.js -- out-tsc/es5/origami.js",
+    "rollup:umd": "rollup -c origami/rollup.config.js --format umd --output dist/bundles/origami.umd.js -- dist/@oshanrube/origami.es5.js",
+    "rollup:umd:min": "rollup -c origami/rollup.config.js --format umd --output dist/bundles/origami.umd.min.js -- dist/@oshanrube/origami.es5.js",
     "rollup": "npm run rollup:es6 && npm run rollup:es5 && npm run rollup:umd && npm run rollup:umd:min",
     "copy": "cpy '**/*.d.ts' '*.metadata.json' ../../dist/ --parents --cwd out-tsc/es6/ && node cp-package.js origami/package.json dist/package.json",
     "ngc:c:es6": "ngc -p origami/collections/tsconfig.json",
     "ngc:c:es5": "ngc -p origami/collections/tsconfig.es5.json",
     "ngc:c": "npm run ngc:c:es6 && npm run ngc:c:es5",
-    "rollup:c:es6": "rollup -c origami/collections/rollup.config.js -m --format es --output dist/@codebakery/origami/collections.js -- out-tsc/es6-collections/collections.js",
-    "rollup:c:es5": "rollup -c origami/collections/rollup.config.js -m --format es --output dist/@codebakery/origami/collections.es5.js -- out-tsc/es5-collections/collections.js",
-    "rollup:c:umd": "rollup -c origami/collections/rollup.config.js --format umd --output dist/bundles/origami-collections.umd.js -- dist/@codebakery/origami/collections.es5.js",
-    "rollup:c:umd:min": "rollup -c origami/collections/rollup.config.js --format umd --output dist/bundles/origami-collections.umd.min.js -- dist/@codebakery/origami/collections.es5.js",
+    "rollup:c:es6": "rollup -c origami/collections/rollup.config.js -m --format es --output dist/@oshanrube/origami/collections.js -- out-tsc/es6-collections/collections.js",
+    "rollup:c:es5": "rollup -c origami/collections/rollup.config.js -m --format es --output dist/@oshanrube/origami/collections.es5.js -- out-tsc/es5-collections/collections.js",
+    "rollup:c:umd": "rollup -c origami/collections/rollup.config.js --format umd --output dist/bundles/origami-collections.umd.js -- dist/@oshanrube/origami/collections.es5.js",
+    "rollup:c:umd:min": "rollup -c origami/collections/rollup.config.js --format umd --output dist/bundles/origami-collections.umd.min.js -- dist/@oshanrube/origami/collections.es5.js",
     "rollup:c": "npm run rollup:c:es6 && npm run rollup:c:es5 && npm run rollup:c:umd && npm run rollup:c:umd:min",
     "copy:c": "cpy '**/*.d.ts' '*.metadata.json' ../../dist/collections/ --parents --cwd out-tsc/es6-collections/ && node cp-package.js origami/collections/package.json dist/collections/package.json",
     "legacy:c": "cpy origami/lib/collections/package.json dist/lib/collections/",

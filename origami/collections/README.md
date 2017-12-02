@@ -10,8 +10,8 @@ All collection libraries are optional, and they may actually reduce an applicati
 
 ```ts
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { PolymerModule } from '@codebakery/origami';
-import { PaperElementsModule } from '@codebakery/origami/lib/collections';
+import { PolymerModule } from '@oshanrube/origami';
+import { PaperElementsModule } from '@oshanrube/origami/lib/collections';
 
 @NgModule({
   declarations: [

@@ -3,12 +3,12 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
-import { PolymerModule } from '@codebakery/origami';
+import { PolymerModule } from '@oshanrube/origami';
 import {
   AppElementsModule,
   IronElementsModule,
   PaperElementsModule
-} from '@codebakery/origami/collections';
+} from '@oshanrube/origami/collections';
 
 import { AppComponent } from './app.component';
 import { FeaturesComponent } from './features/features.component';

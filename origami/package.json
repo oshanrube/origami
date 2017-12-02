@@ -1,7 +1,7 @@
 {
-  "name": "@codebakery/origami",
+  "name": "@oshanrube/origami",
   "main": "./bundles/origami.umd.js",
-  "module": "./@codebakery/origami.es5.js",
-  "es2015": "./@codebakery/origami.js",
+  "module": "./@oshanrube/origami.es5.js",
+  "es2015": "./@oshanrube/origami.js",
   "typings": "./origami.d.ts"
 }

@@ -23,7 +23,7 @@ module.exports = config => {
         entrypoints: /(test|spec).ts$/,
         resolve: {
           alias: {
-            '@codebakery/origami': './dist/bundles/origami.umd.js'
+            '@oshanrube/origami': './dist/bundles/origami.umd.js'
           }
         }
       },
@@ -33,7 +33,7 @@ module.exports = config => {
         lib: ['es6', 'dom'],
         module: 'commonjs',
         paths: {
-          '@codebakery/origami': ['dist/']
+          '@oshanrube/origami': ['dist/']
         },
         skipLibCheck: true,
         target: ES5 ? 'es5' : 'es6',

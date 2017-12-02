@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { EmitChangesDirective } from '@codebakery/origami';
+import { EmitChangesDirective } from '@oshanrube/origami';
 
 @Directive({
   selector: `paper-checkbox, paper-dropdown-menu, paper-dropdown-input, paper-input, paper-listbox, paper-radio-button,

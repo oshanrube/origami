@@ -5,7 +5,7 @@ const globals = {
   '@angular/core': 'ng.core',
   '@angular/forms': 'ng.forms',
   '@angular/platform-browser': 'ng.platformBrowser',
-  '@codebakery/origami': 'codebakery.origami',
+  '@oshanrube/origami': 'codebakery.origami',
   'rxjs': 'Rx'
 };
 

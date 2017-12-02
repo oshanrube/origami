@@ -1,4 +1,4 @@
-[![NPM Package](https://badge.fury.io/js/%40codebakery%2Forigami.svg)](https://www.npmjs.com/package/@codebakery/origami)
+[![NPM Package](https://badge.fury.io/js/%40codebakery%2Forigami.svg)](https://www.npmjs.com/package/@oshanrube/origami)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 [![Build Status](https://saucelabs.com/browser-matrix/codebakery-origami.svg)](https://saucelabs.com/open_sauce/user/codebakery-origami)
@@ -63,7 +63,7 @@ Origami may work on older versions or different browsers (such as Opera), but th
 ## Installation
 
 ```
-$ npm install --save @codebakery/origami
+$ npm install --save @oshanrube/origami
 ```
 
 ### Bower
@@ -114,7 +114,7 @@ index.html
 main.ts
 ```ts
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { webcomponentsReady } from '@codebakery/origami';
+import { webcomponentsReady } from '@oshanrube/origami';
 
 webcomponentsReady().then(() => {
   platformBrowserDynamic().bootstrapModule(AppModule, {
@@ -225,7 +225,7 @@ main.ts
 ```ts
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { webcomponentsReady } from '@codebakery/origami';
+import { webcomponentsReady } from '@oshanrube/origami';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
@@ -268,8 +268,8 @@ Optionally, the app can import selectors from Origami for Polymer's collections.
 ```ts
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { PolymerModule } from '@codebakery/origami';
-import { IronElementsModule, PaperElementsModule } from '@codebakery/origami/lib/collections'; // Optional
+import { PolymerModule } from '@oshanrube/origami';
+import { IronElementsModule, PaperElementsModule } from '@oshanrube/origami/lib/collections'; // Optional
 // There are many collections to import, such as iron, paper, and gold elements
 
 @NgModule({
