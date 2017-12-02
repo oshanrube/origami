@@ -24,5 +24,5 @@ export default {
   plugins,
   exports: 'named',
   external: Object.keys(globals),
-  moduleName: 'codebakery.origami'
+  moduleName: 'oshanrube.origami'
 };

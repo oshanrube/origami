@@ -5,7 +5,7 @@ const globals = {
   '@angular/core': 'ng.core',
   '@angular/forms': 'ng.forms',
   '@angular/platform-browser': 'ng.platformBrowser',
-  '@oshanrube/origami': 'codebakery.origami',
+  '@oshanrube/origami': 'oshanrube.origami',
   'rxjs': 'Rx'
 };
 
@@ -25,5 +25,5 @@ export default {
   plugins,
   exports: 'named',
   external: Object.keys(globals),
-  moduleName: 'codebakery.origami.collections'
+  moduleName: 'oshanrube.origami.collections'
 };

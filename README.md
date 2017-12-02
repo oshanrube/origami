@@ -1,7 +1,7 @@
-[![NPM Package](https://badge.fury.io/js/%40codebakery%2Forigami.svg)](https://www.npmjs.com/package/@oshanrube/origami)
+[![NPM Package](https://badge.fury.io/js/%40oshanrube%2Forigami.svg)](https://www.npmjs.com/package/@oshanrube/origami)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-[![Build Status](https://saucelabs.com/browser-matrix/codebakery-origami.svg)](https://saucelabs.com/open_sauce/user/codebakery-origami)
+[![Build Status](https://saucelabs.com/browser-matrix/oshanrube-origami.svg)](https://saucelabs.com/open_sauce/user/oshanrube-origami)
 
 # Origami
 
